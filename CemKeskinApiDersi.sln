@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{642F78EF-CFA3-4D35-BA1F-7BBBFF5E006F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FE05694D-F1AE-47AB-B60C-E549E2A6FA47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6904E28D-839E-49B8-98F1-BE3DBA7D3507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{66F062A2-EC6D-43A2-9B13-A4FA632CBC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "Infrastructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{D6C60324-A791-4864-AFF5-C72D63CCBFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{878D9EB7-580B-451F-8D92-9B2F4A9492EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{D224DD21-D147-4653-B683-73673D352F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F062A2-EC6D-43A2-9B13-A4FA632CBC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F062A2-EC6D-43A2-9B13-A4FA632CBC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F062A2-EC6D-43A2-9B13-A4FA632CBC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F062A2-EC6D-43A2-9B13-A4FA632CBC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C60324-A791-4864-AFF5-C72D63CCBFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C60324-A791-4864-AFF5-C72D63CCBFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C60324-A791-4864-AFF5-C72D63CCBFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C60324-A791-4864-AFF5-C72D63CCBFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878D9EB7-580B-451F-8D92-9B2F4A9492EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878D9EB7-580B-451F-8D92-9B2F4A9492EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878D9EB7-580B-451F-8D92-9B2F4A9492EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D9EB7-580B-451F-8D92-9B2F4A9492EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D224DD21-D147-4653-B683-73673D352F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D224DD21-D147-4653-B683-73673D352F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D224DD21-D147-4653-B683-73673D352F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D224DD21-D147-4653-B683-73673D352F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE7F57DB-ECB2-4EE7-A968-67D0E7BD378A} = {642F78EF-CFA3-4D35-BA1F-7BBBFF5E006F}
+		{66F062A2-EC6D-43A2-9B13-A4FA632CBC55} = {642F78EF-CFA3-4D35-BA1F-7BBBFF5E006F}
+		{D6C60324-A791-4864-AFF5-C72D63CCBFBE} = {FE05694D-F1AE-47AB-B60C-E549E2A6FA47}
+		{878D9EB7-580B-451F-8D92-9B2F4A9492EF} = {FE05694D-F1AE-47AB-B60C-E549E2A6FA47}
+		{D224DD21-D147-4653-B683-73673D352F78} = {6904E28D-839E-49B8-98F1-BE3DBA7D3507}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E959A2CF-BD28-4F74-ABAD-599F7E014477}
+	EndGlobalSection
+EndGlobal
